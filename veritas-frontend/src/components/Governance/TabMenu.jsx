@@ -1,5 +1,5 @@
 import React from 'react';
-import './theme/TabMenu.css';
+import '../../theme/TabMenu.css';
 
 const TabMenu = ({ tabs, activeTab, onTabClick }) => {
   return (

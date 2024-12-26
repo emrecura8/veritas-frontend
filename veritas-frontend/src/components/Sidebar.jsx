@@ -1,4 +1,5 @@
-import '../theme/Sidebar.css'
+import { Link } from 'react-router-dom';
+import '../theme/Sidebar.css';
 
 const Sidebar = () => {
   return (
@@ -17,108 +18,69 @@ const Sidebar = () => {
       <nav className="nav">
         <ul className="uppernav">
           <li>
-            <a
-              href="#dashboard"
-              className="dashboard"
-            >
+            <Link to="/" className="block px-3 py-2 rounded hover:bg-gray-700">
               Dashboard
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#governance"
-              className="governance"
-            >
+            <Link to="/governance" className="block px-3 py-2 rounded hover:bg-gray-700">
               Governance
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#staking"
-              className="staking"
-            >
+            <Link to="/staking" className="block px-3 py-2 rounded hover:bg-gray-700">
               Staking
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#blocks"
-              className="blocks"
-            >
+            <Link to="/blocks" className="block px-3 py-2 rounded hover:bg-gray-700">
               Blocks
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#transactions"
-              className="transactions"
-            >
+            <Link to="/transactions" className="block px-3 py-2 rounded hover:bg-gray-700">
               Transactions
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#uptime"
-              className="uptime"
-            >
+            <Link to="/uptime" className="block px-3 py-2 rounded hover:bg-gray-700">
               Uptime
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#ibc"
-              className="ibc"
-            >
+            <Link to="/ibc" className="block px-3 py-2 rounded hover:bg-gray-700">
               IBC
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#supply"
-              className="supply"
-            >
+            <Link to="/supply" className="block px-3 py-2 rounded hover:bg-gray-700">
               Supply
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#parameters"
-              className="parameters"
-            >
+            <Link to="/parameters" className="block px-3 py-2 rounded hover:bg-gray-700">
               Parameters
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#consensus"
-              className="consensus"
-            >
+            <Link to="/consensus" className="block px-3 py-2 rounded hover:bg-gray-700">
               Consensus
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#cosmwasm"
-              className="cosmwasm"
-            >
+            <Link to="/cosmwasm" className="block px-3 py-2 rounded hover:bg-gray-700">
               CosmWasm
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#statesync"
-              className="statesync"
-            >
+            <Link to="/statesync" className="block px-3 py-2 rounded hover:bg-gray-700">
               State Sync
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#widgets"
-              className="widgets"
-            >
+            <Link to="/widgets" className="block px-3 py-2 rounded hover:bg-gray-700">
               Widgets
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
@@ -130,12 +92,9 @@ const Sidebar = () => {
         </h2>
         <ul className="bottomlist">
           <li>
-            <a
-              href="#wallet-helper"
-              className="bottomlist"
-            >
+            <Link to="/wallet-helper" className="block px-3 py-2 rounded hover:bg-gray-700">
               Wallet Helper
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -145,32 +104,32 @@ const Sidebar = () => {
         <h2 className="bottomtext">
           Links
         </h2>
-        <ul className="bottomlist">
-          <li>
-            <a
-              href="#wallet-helper"
-              className="bottomlist"
-            >
-              twitter
-            </a>
-          </li>
-          <li>
-            <a
-              href="#wallet-helper"
-              className="bottomlist"
-            >
-              discord
-            </a>
-          </li>
-          <li>
-            <a
-              href="#wallet-helper"
-              className="bottomlist"
-            >
-              github
-            </a>
-          </li>
-        </ul>
+        <div className="flex items-center space-x-4">
+          <a
+            href="https://twitter.com/your-account"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-400"
+          >
+            Twitter
+          </a>
+          <a
+            href="https://discord.com/invite/your-invite"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-indigo-400"
+          >
+            Discord
+          </a>
+          <a
+            href="https://github.com/your-repo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-400"
+          >
+            GitHub
+          </a>
+        </div>
       </div>
     </aside>
   );
