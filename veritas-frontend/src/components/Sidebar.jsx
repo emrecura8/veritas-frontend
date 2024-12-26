@@ -1,16 +1,16 @@
-
+import '../theme/Sidebar.css'
 
 const Sidebar = () => {
   return (
-    <aside className="w-64 bg-gray-900 text-white h-screen flex flex-col">
+    <aside className="sidebar">
       {/* Logo / Brand */}
       <div className="flex items-center px-4 py-4 bg-gray-800">
         <img
-          src="/src/assets/logo.png"
-          alt="Soarchain Logo"
+          src="/src/assets/react.svg"
+          alt="Veritas Logo"
           className="w-8 h-8 mr-2"
         />
-        <span className="text-xl font-bold">Soarchain</span>
+        <span className="text-xl font-bold">Veritas</span>
       </div>
 
       {/* Navigation */}

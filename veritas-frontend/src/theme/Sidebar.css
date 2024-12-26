@@ -1,0 +1,15 @@
+.sidebar{
+    width: 16rem;              
+    background-color: #111827; 
+    color: #ffffff;            
+    height: 100vh;             
+    display: flex;            
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1f2937;
+}
