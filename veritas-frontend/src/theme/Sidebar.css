@@ -5,11 +5,82 @@
     height: 100vh;             
     display: flex;            
     flex-direction: column;
+    padding-left: 0.5rem;
+    overflow-y:auto;
+}
+
+.sidebar li{
+    padding-top: 20px;
 }
 
 .logo{
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 1rem;
     background-color: #1f2937;
+    border: 1px solid #231554;
+}
+
+.nav {
+    flex:content;             
+    padding: 0.10rem;      
+}
+
+.navheader {
+    font-size:x-large;
+    font-weight: bold; 
+    display: flex;  
+    text-align: center;
+}
+
+.uppernav  {
+    margin-top: 0.15rem; 
+    padding: 0.15rem 0.10rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav ul li {
+    display: flex;
+    border-radius: 0.375rem;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 15px;
+    padding-left:50px;
+    text-align: center;
+    padding-top: -10px;
+}
+
+.nav ul li:hover {
+    background-color: #374151;
+    border-radius: 0.375rem;
+}
+
+.bottom{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.bottomtext{
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #9ca3af;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+.bottomlist > * + * {
+    margin-top: 0.25rem;
+    flex:content;
+}
+
+.bottomlist {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+}
+
+.bottomlist li:hover {
+    background-color: #374151;
 }
