@@ -1,0 +1,12 @@
+.governance-container {
+    padding: 20px;
+    background-color: #1a1a2e;
+    color: #ffffff;
+  }
+  
+  .proposal-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  

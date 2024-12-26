@@ -1,0 +1,19 @@
+.tab-menu {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tab-menu button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #3a3a5e;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .tab-menu button.active {
+    background-color: #7b61ff;
+  }
+  

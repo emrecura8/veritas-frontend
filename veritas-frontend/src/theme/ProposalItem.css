@@ -1,0 +1,21 @@
+.proposal-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #2d2d44;
+    border-radius: 5px;
+  }
+  
+  .status.passed {
+    color: #61db87;
+  }
+  
+  .status.rejected {
+    color: #ff6b6b;
+  }
+  
+  .status.voting {
+    color: #f6d365;
+  }
+      
