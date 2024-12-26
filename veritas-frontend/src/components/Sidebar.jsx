@@ -4,22 +4,22 @@ const Sidebar = () => {
   return (
     <aside className="sidebar">
       {/* Logo / Brand */}
-      <div className="flex items-center px-4 py-4 bg-gray-800">
+      <div className="logo">
         <img
           src="/src/assets/react.svg"
           alt="Veritas Logo"
           className="w-8 h-8 mr-2"
         />
-        <span className="text-xl font-bold">Veritas</span>
+        <span className="navheader">Veritas</span>
       </div>
 
       {/* Navigation */}
-      <nav className="flex-1 overflow-y-auto px-4 py-4">
-        <ul className="space-y-1">
+      <nav className="nav">
+        <ul className="uppernav">
           <li>
             <a
               href="#dashboard"
-              className="block px-3 py-2 rounded hover:bg-gray-700"
+              className="dashboard"
             >
               Dashboard
             </a>
@@ -27,7 +27,7 @@ const Sidebar = () => {
           <li>
             <a
               href="#governance"
-              className="block px-3 py-2 rounded hover:bg-gray-700"
+              className="governance"
             >
               Governance
             </a>
@@ -35,7 +35,7 @@ const Sidebar = () => {
           <li>
             <a
               href="#staking"
-              className="block px-3 py-2 rounded hover:bg-gray-700"
+              className="staking"
             >
               Staking
             </a>
@@ -43,7 +43,7 @@ const Sidebar = () => {
           <li>
             <a
               href="#blocks"
-              className="block px-3 py-2 rounded hover:bg-gray-700"
+              className="blocks"
             >
               Blocks
             </a>
@@ -51,7 +51,7 @@ const Sidebar = () => {
           <li>
             <a
               href="#transactions"
-              className="block px-3 py-2 rounded hover:bg-gray-700"
+              className="transactions"
             >
               Transactions
             </a>
@@ -59,7 +59,7 @@ const Sidebar = () => {
           <li>
             <a
               href="#uptime"
-              className="block px-3 py-2 rounded hover:bg-gray-700"
+              className="uptime"
             >
               Uptime
             </a>
@@ -67,7 +67,7 @@ const Sidebar = () => {
           <li>
             <a
               href="#ibc"
-              className="block px-3 py-2 rounded hover:bg-gray-700"
+              className="ibc"
             >
               IBC
             </a>
@@ -75,7 +75,7 @@ const Sidebar = () => {
           <li>
             <a
               href="#supply"
-              className="block px-3 py-2 rounded hover:bg-gray-700"
+              className="supply"
             >
               Supply
             </a>
@@ -83,7 +83,7 @@ const Sidebar = () => {
           <li>
             <a
               href="#parameters"
-              className="block px-3 py-2 rounded hover:bg-gray-700"
+              className="parameters"
             >
               Parameters
             </a>
@@ -91,7 +91,7 @@ const Sidebar = () => {
           <li>
             <a
               href="#consensus"
-              className="block px-3 py-2 rounded hover:bg-gray-700"
+              className="consensus"
             >
               Consensus
             </a>
@@ -99,7 +99,7 @@ const Sidebar = () => {
           <li>
             <a
               href="#cosmwasm"
-              className="block px-3 py-2 rounded hover:bg-gray-700"
+              className="cosmwasm"
             >
               CosmWasm
             </a>
@@ -107,7 +107,7 @@ const Sidebar = () => {
           <li>
             <a
               href="#statesync"
-              className="block px-3 py-2 rounded hover:bg-gray-700"
+              className="statesync"
             >
               State Sync
             </a>
@@ -115,7 +115,7 @@ const Sidebar = () => {
           <li>
             <a
               href="#widgets"
-              className="block px-3 py-2 rounded hover:bg-gray-700"
+              className="widgets"
             >
               Widgets
             </a>
@@ -124,15 +124,15 @@ const Sidebar = () => {
       </nav>
 
       {/* Tools */}
-      <div className="px-4 py-3 bg-gray-800">
-        <h2 className="text-sm uppercase text-gray-400 tracking-wider mb-2">
+      <div className="bottom">
+        <h2 className="bottomtext">
           Tools
         </h2>
-        <ul className="space-y-1">
+        <ul className="bottomlist">
           <li>
             <a
               href="#wallet-helper"
-              className="block px-3 py-2 rounded hover:bg-gray-700"
+              className="bottomlist"
             >
               Wallet Helper
             </a>
@@ -141,36 +141,36 @@ const Sidebar = () => {
       </div>
 
       {/* Links */}
-      <div className="px-4 py-3 bg-gray-900">
-        <h2 className="text-sm uppercase text-gray-400 tracking-wider mb-2">
+      <div className="bottom">
+        <h2 className="bottomtext">
           Links
         </h2>
-        <div className="flex items-center space-x-4">
-          <a
-            href="https://twitter.com/your-account"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-blue-400"
-          >
-            
-          </a>
-          <a
-            href="https://discord.com/invite/your-invite"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-indigo-400"
-          >
-            
-          </a>
-          <a
-            href="https://github.com/your-repo"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-gray-400"
-          >
-            
-          </a>
-        </div>
+        <ul className="bottomlist">
+          <li>
+            <a
+              href="#wallet-helper"
+              className="bottomlist"
+            >
+              twitter
+            </a>
+          </li>
+          <li>
+            <a
+              href="#wallet-helper"
+              className="bottomlist"
+            >
+              discord
+            </a>
+          </li>
+          <li>
+            <a
+              href="#wallet-helper"
+              className="bottomlist"
+            >
+              github
+            </a>
+          </li>
+        </ul>
       </div>
     </aside>
   );
