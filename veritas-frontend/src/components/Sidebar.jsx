@@ -1,7 +1,4 @@
 
-// If you want to show social icons, install react-icons:
-// npm install react-icons
-
 
 const Sidebar = () => {
   return (
