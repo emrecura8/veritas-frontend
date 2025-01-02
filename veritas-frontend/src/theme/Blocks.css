@@ -1,0 +1,112 @@
+/* Blocks.css */
+
+.blocks-container {
+    padding: 1rem;
+    color: white;
+  }
+  
+  .blocks-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+  }
+  
+  .blocks-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .blocks-header p {
+    color: #6b7280;
+  }
+  
+  .blocks-tabs {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .tab-button {
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    background: #222;
+    color: #9ca3af;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .tab-button.active {
+    background: #7b61ff;
+    color: white;
+  }
+  
+  .blocks-graph {
+    height: 150px;
+    background: #111;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b7280;
+    border: 1px solid #333;
+    border-radius: 5px;
+  }
+  
+  .blocks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .block-item {
+    background: #1e293b;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .block-item h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .block-age {
+    color: #10b981;
+    font-size: 0.9rem;
+  }
+  
+  /* Countdown Tab */
+  .future-tab {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .countdown-details {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #1e293b;
+    border-radius: 5px;
+  }
+  
+  /* Placeholder Blocks for Future Data */
+  .placeholder-blocks {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .placeholder-item {
+    height: 120px;
+    background: #1e293b;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b7280;
+    font-size: 1rem;
+  }
+  

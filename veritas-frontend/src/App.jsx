@@ -1,7 +1,18 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Governance from './components/Governance/Governance';
-import Dashboard from './components/Dashboard/Dashboard';
+import Blocks from './components/Blocks/Blocks'; 
+import Staking from './components/Staking/Staking'; 
+import Transactions from './components/Transactions/Transactions';
+import Uptime from './components/Uptime/Uptime';
+import IBC from './components/IBC/IBC';
+import Supply from './components/Supply/Supply';
+import Parameters from './components/Parameters/Parameters';
+import Consensus from './components/Consensus/Consensus';
+import Cosmwasm from './components/Cosmwasm/Cosmwasm';
+import Widgets from './components/Widgets/Widgets';
+import StateSync from './components/State Sync/StateSync';
+
 
 function App() {
   return (
@@ -16,17 +27,17 @@ function App() {
           <Routes>
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/governance" element={<Governance />} />
-            <Route path="/staking" element={<h1 className="text-2xl font-bold">Staking</h1>} />
-            <Route path="/blocks" element={<h1 className="text-2xl font-bold">Blocks</h1>} />
-            <Route path="/transactions" element={<h1 className="text-2xl font-bold">Transactions</h1>} />
-            <Route path="/uptime" element={<h1 className="text-2xl font-bold">Uptime</h1>} />
-            <Route path="/ibc" element={<h1 className="text-2xl font-bold">IBC</h1>} />
-            <Route path="/supply" element={<h1 className="text-2xl font-bold">Supply</h1>} />
-            <Route path="/parameters" element={<h1 className="text-2xl font-bold">Parameters</h1>} />
-            <Route path="/consensus" element={<h1 className="text-2xl font-bold">Consensus</h1>} />
-            <Route path="/cosmwasm" element={<h1 className="text-2xl font-bold">CosmWasm</h1>} />
-            <Route path="/statesync" element={<h1 className="text-2xl font-bold">State Sync</h1>} />
-            <Route path="/widgets" element={<h1 className="text-2xl font-bold">Widgets</h1>} />
+            <Route path="/staking" element={<Staking />} />
+            <Route path="/blocks" element={<Blocks />} />
+            <Route path="/transactions" element={<Transactions />} />
+            <Route path="/uptime" element={<Uptime />} />
+            <Route path="/ibc" element={<IBC />} />
+            <Route path="/supply" element={<Supply />} />
+            <Route path="/parameters" element={<Parameters />} />
+            <Route path="/consensus" element={<Consensus />} />
+            <Route path="/cosmwasm" element={<Cosmwasm />} />
+            <Route path="/statesync" element={<StateSync />} />
+            <Route path="/widgets" element={<Widgets />} />
           </Routes>
         </div>
       </div>

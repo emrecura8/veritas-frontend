@@ -1,0 +1,69 @@
+.widgets-container {
+    padding: 1rem;
+    color: white;
+  }
+  
+  .widgets-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .widgets-section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background: #1e293b;
+  }
+  
+  .widgets-section h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  
+  .widgets-code {
+    background: #0f172a;
+    padding: 1rem;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto;
+    color: #10b981;
+    line-height: 1.5;
+  }
+  
+  .widgets-code span.comment {
+    color: #9ca3af;
+  }
+  
+  .widgets-code span.tag {
+    color: #7b61ff;
+  }
+  
+  .widgets-code span.attr {
+    color: #f59e0b;
+  }
+  
+  .widgets-code span.value {
+    color: #f43f5e;
+  }
+  
+  .endpoint-selector {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .endpoint-selector label {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  
+  .endpoint-dropdown {
+    padding: 0.5rem;
+    background: #222;
+    color: #9ca3af;
+    border-radius: 5px;
+    border: none;
+  }
+  

@@ -1,0 +1,58 @@
+.state-sync-container {
+    padding: 1rem;
+    color: white;
+  }
+  
+  .state-sync-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .state-sync-subheader {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1rem 0;
+  }
+  
+  .state-sync-description {
+    margin-bottom: 1rem;
+    color: #9ca3af;
+  }
+  
+  .code-box {
+    background: #1e293b;
+    padding: 1rem;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #10b981;
+  }
+  
+  .code-box span.comment {
+    color: #9ca3af;
+  }
+  
+  .code-box span.key {
+    color: #7b61ff;
+  }
+  
+  .code-box span.value {
+    color: #f59e0b;
+  }
+  
+  .tip-box {
+    padding: 1rem;
+    background: #0d3b66;
+    border-radius: 5px;
+    margin-top: 1rem;
+    color: #cbd5e1;
+  }
+  
+  .tip-box a {
+    color: #7b61ff;
+    text-decoration: underline;
+  }
+  

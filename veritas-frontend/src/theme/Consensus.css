@@ -1,0 +1,62 @@
+.consensus-container {
+    padding: 1rem;
+    color: white;
+  }
+  
+  .consensus-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+  }
+  
+  .consensus-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .monitor-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .monitor-button {
+    padding: 0.5rem 1rem;
+    background-color: #7b61ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .consensus-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .stat-item {
+    background: #1e293b;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .stat-item h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .tips-section {
+    background: #1e293b;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    color: #10b981;
+  }
+  

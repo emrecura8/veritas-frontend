@@ -1,0 +1,68 @@
+.ibc-container {
+    padding: 1rem;
+    color: white;
+  }
+  
+  .ibc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+  }
+  
+  .ibc-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .ibc-tabs {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .ibc-tab {
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    background: #222;
+    color: #9ca3af;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .ibc-tab.active {
+    background: #7b61ff;
+    color: white;
+  }
+  
+  .ibc-input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  
+  .ibc-input {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #1e293b;
+    color: white;
+  }
+  
+  .ibc-button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background: #7b61ff;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .ibc-button:hover {
+    background: #5a48d6;
+  }
+  
