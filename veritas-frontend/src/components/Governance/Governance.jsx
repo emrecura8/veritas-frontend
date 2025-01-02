@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import '../../theme/Governance.css';
 import ProposalItem from './ProposalItem';
 import TabMenu from './TabMenu';

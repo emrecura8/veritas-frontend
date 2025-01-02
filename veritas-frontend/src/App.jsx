@@ -1,7 +1,7 @@
-import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Governance from './components/Governance/Governance';
+import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         {/* Main Content */}
         <div style={{ flex: 1, padding: '1rem', overflowY: 'auto', backgroundColor: '#111', color: 'white' }}>
           <Routes>
-            <Route path="/" element={<h1 className="text-2xl font-bold">Dashboard</h1>} />
+            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/governance" element={<Governance />} />
             <Route path="/staking" element={<h1 className="text-2xl font-bold">Staking</h1>} />
             <Route path="/blocks" element={<h1 className="text-2xl font-bold">Blocks</h1>} />
