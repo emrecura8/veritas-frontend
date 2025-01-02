@@ -1,0 +1,78 @@
+.cosmwasm-container {
+    padding: 1rem;
+    color: white;
+  }
+  
+  .cosmwasm-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+  }
+  
+  .cosmwasm-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .input-group input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #333;
+    flex: 1;
+    background-color: #1e293b;
+    color: white;
+  }
+  
+  .query-button,
+  .upload-button {
+    padding: 0.5rem 1rem;
+    background-color: #7b61ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .query-dropdown {
+    padding: 0.5rem;
+    background-color: #1e293b;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .table th,
+  .table td {
+    padding: 1rem;
+    border: 1px solid #333;
+    text-align: left;
+  }
+  
+  .table th {
+    background: #111;
+  }
+  
+  .table tbody tr:hover {
+    background: #1e293b;
+  }
+  
+  .upload-section {
+    text-align: right;
+    margin-top: 1rem;
+  }
+  

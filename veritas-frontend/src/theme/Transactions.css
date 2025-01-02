@@ -1,0 +1,70 @@
+/* Transactions.css */
+
+.transactions-container {
+    padding: 1rem;
+    color: white;
+  }
+  
+  .transactions-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .tab-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #222;
+    color: #9ca3af;
+  }
+  
+  .tab-button.active {
+    background: #7b61ff;
+    color: white;
+  }
+  
+  .transactions-table {
+    margin-top: 1rem;
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .transactions-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transactions-table th,
+  .transactions-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #333;
+  }
+  
+  .transactions-table th {
+    background: #222;
+  }
+  
+  .search-box {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #1e293b;
+    border-radius: 5px;
+  }
+  
+  .search-box input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background: #111;
+    color: white;
+  }
+  

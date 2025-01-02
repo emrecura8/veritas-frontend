@@ -1,0 +1,45 @@
+.supply-container {
+    padding: 1rem;
+    color: white;
+  }
+  
+  .supply-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+  }
+  
+  .supply-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .supply-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .supply-table th, .supply-table td {
+    padding: 0.8rem;
+    border-bottom: 1px solid #333;
+    text-align: left;
+  }
+  
+  .supply-table th {
+    background: #1e293b;
+    font-weight: bold;
+    color: #9ca3af;
+  }
+  
+  .supply-table td {
+    background: #1e293b;
+    color: white;
+  }
+  
+  .supply-table tr:nth-child(even) td {
+    background: #111827;
+  }
+  

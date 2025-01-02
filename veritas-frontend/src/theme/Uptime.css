@@ -1,0 +1,76 @@
+.uptime-container {
+    padding: 1rem;
+    color: white;
+  }
+  
+  .uptime-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+  }
+  
+  .uptime-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .uptime-tabs {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .tab-button {
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    background: #222;
+    color: #9ca3af;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .tab-button.active {
+    background: #7b61ff;
+    color: white;
+  }
+  
+  /* Table Style */
+  .uptime-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .uptime-table th,
+  .uptime-table td {
+    padding: 1rem;
+    border: 1px solid #333;
+    text-align: left;
+  }
+  
+  .uptime-table th {
+    background-color: #1e293b;
+    font-weight: bold;
+  }
+  
+  .uptime-table tr:nth-child(even) {
+    background-color: #1a202c;
+  }
+  
+  .uptime-table tr:hover {
+    background-color: #2d3748;
+  }
+  
+  /* Input Filter */
+  .uptime-filter {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background: #222;
+    color: white;
+  }
+  
