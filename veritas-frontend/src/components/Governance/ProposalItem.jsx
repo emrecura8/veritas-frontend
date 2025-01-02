@@ -1,5 +1,5 @@
 import React from 'react';
-import './theme/ProposalItem.css';
+import '../../theme/ProposalItem.css';
 import ProgressBar from './ProgressBar';
 
 const ProposalItem = ({ proposal }) => {

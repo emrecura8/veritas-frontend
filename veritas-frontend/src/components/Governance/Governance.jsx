@@ -1,20 +1,22 @@
 import { useState, useEffect } from 'react';
-import './theme/Governance.css';
-import ProposalItem from './Governance/ProposalItem';
-import TabMenu from './Governance/TabMenu';
+import '../../theme/Governance.css';
+import ProposalItem from './ProposalItem';
+import TabMenu from './TabMenu';
 
 const Governance = () => {
   const [tab, setTab] = useState('passed');
   const [proposals, setProposals] = useState([]);
 
   useEffect(() => {
-    fetch('/api/proposals') // Replace with actual API endpoint
-      .then((response) => response.json())
-      .then((data) => setProposals(data))
-      .catch((error) => console.error('Error fetching proposals:', error));
+    const data = [
+      { id: 1, type: 'MsgSoftwareUpgrade', status: 'passed', progress: 100, date: '9 days ago' },
+      { id: 2, type: 'MsgParameterChange', status: 'rejected', progress: 40, date: '15 days ago' },
+      { id: 3, type: 'MsgCommunitySpend', status: 'voting', progress: 70, date: '2 days ago' }
+    ];
+    setProposals(data);
   }, []);
 
-  const filteredProposals = proposals.filter((proposal) => proposal.status === tab);
+  const filteredProposals = proposals.filter((p) => p.status === tab);
 
   return (
     <div className="governance-container">
