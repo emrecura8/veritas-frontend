@@ -12,7 +12,7 @@ import Consensus from './components/Consensus/Consensus';
 import Cosmwasm from './components/Cosmwasm/Cosmwasm';
 import Widgets from './components/Widgets/Widgets';
 import StateSync from './components/State Sync/StateSync';
-
+import Dashboard  from './components/Dashboard/Dashboard';
 
 function App() {
   return (

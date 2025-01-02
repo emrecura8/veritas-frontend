@@ -18,7 +18,7 @@ const Sidebar = () => {
       <nav className="nav">
         <ul className="uppernav">
           <li>
-            <Link to="/" className="block px-3 py-2 rounded hover:bg-gray-700">
+            <Link to="/dashboard" className="block px-3 py-2 rounded hover:bg-gray-700">
               Dashboard
             </Link>
           </li>

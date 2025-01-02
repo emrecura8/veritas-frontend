@@ -31,8 +31,8 @@
   
   /* Top Stats Section */
   .grid-container-top {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr); /* 6 Equal Columns */
+    display:grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 columns in one row */
     gap: 16px;
   }
   
@@ -46,10 +46,16 @@
   /* Card Styles */
   .card {
     padding: 16px;
-    background-color: #1e293b; /* Gray-800 */
+    background-color: #2d3748; /* Gray-800 */
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow */
     text-align: center;
+    transition: transform 0.2s;
+    height: 120px; /* Fixed height for uniform size */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .card-label {
@@ -80,6 +86,7 @@
   
   /* Button Styles */
   .button {
+    width: 50%;
     padding: 10px 20px;
     border-radius: 8px;
     font-weight: bold;

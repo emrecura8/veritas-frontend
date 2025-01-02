@@ -1,5 +1,4 @@
 import "../../theme/Dashboard.css"
-
 import {
   ChartBarIcon,
   UsersIcon,
@@ -64,14 +63,15 @@ const Dashboard = () => {
             </div>
           ))}
         </div>
-      </div>
-
-      {/* Buttons */}
-      <div className="button-container">
+        <div className="button-container">
         <button className="button button-swap">SWAP</button>
         <button className="button button-send">SEND</button>
         <button className="button button-delegate">DELEGATE</button>
       </div>
+      </div>
+
+      {/* Buttons */}
+      
     </div>
   );
 };
